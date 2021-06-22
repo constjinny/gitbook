@@ -1,4 +1,4 @@
-# keybord event 분석
+# keybord event에 대한 분석
 
 ## 😦 사건의 발단
 
