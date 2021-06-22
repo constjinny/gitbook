@@ -5,6 +5,7 @@
 ## 기록 <a id="log-study"></a>
 
 * [JS](log-study/js/README.md)
+  * [keybord event 분석](log-study/js/keybord-event.md)
   * [스코프, 클로저, 실행 컨텍스트](log-study/js/undefined.md)
 * [React](log-study/react/README.md)
   * [useEffect 파헤치기](log-study/react/useeffect.md)
