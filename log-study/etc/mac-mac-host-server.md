@@ -4,7 +4,7 @@
 
 ### 2. hosts 파일 수정 명령어 입력 <a id="3903"></a>
 
-```text
+```bash
 % sudo vi /etc/hosts
 or 
 % sudo vi /private/etc/hosts
@@ -14,12 +14,13 @@ or
 
 ### 4. hosts 파일 수정 <a id="1efa"></a>
 
-```text
+```bash
 127.0.0.1       localhost
 255.255.255.255 broadcasthost
 ::1             localhost
-123.12.1234     daum.net// 전환시 : 아이피 주소 입력, 구분은 tab
-// 호스팅 연결되어있으면 이 부분에 해당주소 뜸
+123.12.1234     daum.net
+// 전환시 : 아이피 주소 입력, 구분은 tab
+// 호스팅 연결되어있으면 이 부분에 해당주소 존
 ~
 ~
 ~
@@ -37,7 +38,7 @@ or
 
 ### 5. 설정 재부팅 <a id="e5c8"></a>
 
-```text
+```bash
 dscacheutil -flushcache
 ```
 

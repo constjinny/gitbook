@@ -18,7 +18,7 @@ root에 craco.config.js 파일을 추가함으로 eject을 실행하지 않고�
 
 craco를 설치한다.
 
-```
+```bash
 yarn add @craco/craco
 yarn add craco-alias
 
@@ -59,7 +59,7 @@ module.exports = {
 
 아래 처럼 절대경로 사용이 가능하다.
 
-```bash
+```jsx
 import { Button, Input } from "@components";
 import { SignUp } from "@features";
 ```

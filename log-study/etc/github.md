@@ -8,7 +8,7 @@
 
 ### **1. user/.ssh 폴더에 SSH Key 생성** <a id="86fc"></a>
 
-```text
+```bash
 % ssh-keygen -t rsa -C “jinny1@email.com” -f “jinny1”
 % ssh-keygen -t rsa -C “jinny2@email.com” -f “jinny2”
 ```
@@ -17,23 +17,29 @@
 
 ### **2. 생성된 SSH Key 등록** <a id="1c4e"></a>
 
-```text
+```bash
 % ssh-add jinny1
 % ssh-add jinny2
 ```
 
 ### **3. SSH config 파일 생성 및 수정** <a id="ab23"></a>
 
-```text
+```bash
 % touch config
-% vi config// config
+
+% vi config
+
+// config
 Host github.com
 HostName github.com
 User jinny1@email.com
 IdentityFile ~/.ssh/jinny1Host github.k.com
+
+Host github.k.com
 HostName github.k.com
 User jinny2@email.com
-IdentityFile ~/.ssh/jinny2// host 수정 시
+IdentityFile ~/.ssh/jinny2 // host 수정 시
+
 Host github.com-jinny2
 HostName github.com-jinny2
 User jinny2@email.com
@@ -44,19 +50,19 @@ IdentityFile ~/.ssh/jinny2
 
 * git clone 시 url 수정
 
-```text
+```bash
 % git clone git@github.com-jinny2:jinny2/project.git
 ```
 
 * 이미 clone 받은 저장소라면
 
-```text
+```bash
 % git remote set-url origin git@github.com-jinny2:jinny2/project.git
 ```
 
 ### **5. GitHub에 SSH Key 등록** <a id="e0fb"></a>
 
-```text
+```bash
 % cat jinny1.pub
 ```
 

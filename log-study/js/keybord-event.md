@@ -82,7 +82,7 @@ code sandbox : [https://codesandbox.io/s/key-event-test-8sbz4](https://codesandb
 
 의도치않은 빈값이 들어갈 수 있기 때문에 주석 step3처럼 확인해주는 과정을 거쳐야한다.
 
-```text
+```javascript
 // step1. 키 이벤트가 발생
 const handleKeyup = (event) => {
 	// step2-a. 입력된 key가 enter인지 확인한다.
@@ -106,7 +106,7 @@ const handleKeyup = (event) => {
 
 throttle는 일정 시간안에 중복이벤트가 발생해도 1번만 처리되게끔 해주는 방식이다.
 
-```text
+```javascript
 let throttling = null;
 
 const handleKeyup = (event) => {
