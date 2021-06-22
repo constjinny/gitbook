@@ -1,6 +1,4 @@
-# Intro
-
-기록하고, 기억하기!
+# About Me
 
 ## Contact
 

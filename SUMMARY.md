@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Intro](README.md)
+* [About Me](README.md)
 
 ## 기록 <a id="log-study"></a>
 
@@ -14,8 +14,7 @@
   * [Network](log-study/undefined-2/network/README.md)
     * [1. 네트워크\(Network\)란?](log-study/undefined-2/network/network-network.md)
     * [2. OSI 7 Model](log-study/undefined-2/network/network-osi-7-model.md)
-* [Github](log-study/github-2/README.md)
-  * [GitHub 계정 충돌? 계정 여러개 사용하기](log-study/github-2/github.md)
-* [etc](log-study/etc/README.md)
+* [etc.](log-study/etc/README.md)
+  * [GitHub 계정 충돌? 계정 여러개 사용하기](log-study/etc/github.md)
   * [Mac 터미널로 Host server변경하기](log-study/etc/mac-mac-host-server.md)
 
