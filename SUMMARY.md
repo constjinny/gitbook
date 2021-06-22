@@ -2,7 +2,7 @@
 
 * [Intro](README.md)
 
-## ✏️ log <a id="log-study"></a>
+## 기록 <a id="log-study"></a>
 
 * [React](log-study/react/README.md)
   * [useEffect 파헤치기](log-study/react/useeffect.md)
