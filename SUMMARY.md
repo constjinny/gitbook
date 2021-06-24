@@ -5,7 +5,7 @@
 ## 기록 <a id="log"></a>
 
 * [JS](log/js/README.md)
-  * [keybord event에 대한 분석](log/js/keybord-event.md)
+  * [keybord event에 대한 분석과 한글 코드](log/js/keybord-event.md)
   * [스코프, 클로저, 실행 컨텍스트](log/js/undefined.md)
 * [React](log/react/README.md)
   * [useEffect 파헤치기](log/react/useeffect.md)
