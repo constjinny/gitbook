@@ -6,7 +6,7 @@
 
 * [JS](log/js/README.md)
   * [keybord event에 대한 분석과 한글 코드](log/js/keybord-event.md)
-  * [스코프, 클로저, 실행 컨텍스트](log/js/undefined.md)
+  * [자바스크립트 스코프](log/js/undefined.md)
 * [React](log/react/README.md)
   * [useEffect 파헤치기](log/react/useeffect.md)
   * [Craco를 사용하여 절대경로 설정하기](log/react/craco-craco.md)
