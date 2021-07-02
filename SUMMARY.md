@@ -19,3 +19,7 @@
   * [GitHub 계정 충돌? 계정 여러개 사용하기](log/etc/github.md)
   * [Mac 터미널로 Host server변경하기](log/etc/mac-mac-host-server.md)
 
+---
+
+* [memo](memo.md)
+
